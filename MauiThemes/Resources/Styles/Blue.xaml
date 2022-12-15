@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MauiThemes.Resources.Styles.Blue">
+
+    <Color x:Key="BackgroundColor">#002175</Color>
+    <Color x:Key="TextColor">#FFFFFF</Color>
+    <Color x:Key="InputBackgroundColor">#2A468C</Color>
+</ResourceDictionary>

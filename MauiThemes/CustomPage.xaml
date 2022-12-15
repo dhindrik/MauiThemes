@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiThemes.CustomPage"
+             Title="CustomPage"
+             BackgroundColor="{DynamicResource BackgroundColor}">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="Background color" />
+        <Entry Text="{Binding BackgroundColor}" />
+
+        <Label Text="Text color" />
+        <Entry Text="{Binding TextColor}" />
+
+        <Label Text="Input background color" />
+        <Entry Text="{Binding InputBackgroundColor}" />
+
+        <Button Text="Save and set" Command="{Binding SaveCommand}" />
+    </VerticalStackLayout>
+</ContentPage>
