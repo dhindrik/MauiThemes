@@ -19,6 +19,11 @@ public partial class App : Application
 
         var theme = Preferences.Get("theme", "System");
 
+         RequestedThemeChanged += (s, a) =>
+         {
+            LoadTheme(theme);
+         };
+
         LoadTheme(theme);
     }
 
